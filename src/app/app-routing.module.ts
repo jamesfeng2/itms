@@ -4,7 +4,7 @@ import { FullLayoutComponent } from './pages/layouts/full/full-layout.component'
 
 const appRoutes: Routes = [
   { path: '', redirectTo: 'pages/login', pathMatch: 'full',}, 
-  { path: 'FullLayoutComponent', component:},
+  { path: '', component:},
   {}
 ];
 
