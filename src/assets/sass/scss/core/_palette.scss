@@ -11,6 +11,7 @@
 //  ================================================================================================
 
 @import "../mixins/colors";
+@import "bootstrap/mixin";
 
 // usage: color("name_of_color", "type_of_color")
 // to avoid to repeating map-get($colors, ...)

@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { FullLayoutComponent } from './pages/layouts/full/full-layout.component';
 
 const appRoutes: Routes = [
-  { path: '', redirectTo: 'pages/login', pathMatch: 'full',}, 
-  { path: '', component:},
+  { path: '', redirectTo: 'pages/login', pathMatch: 'full'}, 
+  { path: '', component: FullLayoutComponent},
   {}
 ];
 
